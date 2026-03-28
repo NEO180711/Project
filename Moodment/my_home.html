@@ -12,7 +12,7 @@
 
     <div class="status-box">
         <p class="status-text"></p>
-        <button type="button" class="logout-btn" onclick="logout()">로그아웃</button>
+        <button type="button" class="logout-btn">로그아웃</button>
     </div>
 
     <div class="login-container">
@@ -29,8 +29,8 @@
             또는 이메일로 로그인하세요
         </div>
             <form class="login-form">
-                <input type="email" name="email" required autocomplete="email" placeholder="이메일 주소를 입력하세요">
-                <input type="password" name="password" required minlength="8" autocomplete="current-password" placeholder="비밀번호를 입력하세요">
+                <input type="email" name="email" id="login-email-input" required autocomplete="email" placeholder="이메일 주소를 입력하세요">
+                <input type="password" name="password" id="login-password-input" required minlength="8" autocomplete="current-password" placeholder="비밀번호를 입력하세요">
     
                 <div class="form-options">
                     <label><input type="checkbox"> 계정 기억하기</label>
@@ -38,7 +38,7 @@
                 </div>
 
                 <p id="login-message" class="form-message" aria-live="polite"></p>
-                <button type="button" class="login-submit-btn" onclick="loginCheck()">로그인</button>
+                <button type="submit" class="login-submit-btn">로그인</button>
                 <a href="signup.html" class="signup-btn">회원가입 하러 가기</a>
 
                 <p class="form-guide">
