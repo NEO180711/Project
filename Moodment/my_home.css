@@ -112,11 +112,9 @@
   border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
-}
-
-.signup-btn a {
   text-decoration: none;
   color: black;
+  text-align: center;
 }
 
 .form-guide {
